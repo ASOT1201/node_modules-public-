@@ -11,3 +11,307 @@
   </body>
 </html>
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AST-101 — Introduction to Apostolic Theology</title>
+  <meta name="description" content="AST-101 Introduction to Apostolic Theology — course page" />
+  <style>
+    :root{
+      --bg:#fafafa; --card:#fff; --muted:#666; --accent:#0b5cff;
+      --radius:12px; --pad:18px; --maxw:1000px;
+    }
+    *{box-sizing:border-box}
+    body{
+      font-family: system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      margin:0; background:var(--bg); color:#111;
+      line-height:1.5; -webkit-font-smoothing:antialiased;
+    }
+    .wrap{max-width:var(--maxw); margin:32px auto; padding:18px;}
+    header{display:flex; align-items:center; gap:16px;}
+    .brand{display:flex; flex-direction:column;}
+    h1{margin:0; font-size:1.5rem;}
+    .meta{color:var(--muted); font-size:0.95rem;}
+    .card{background:var(--card); padding:var(--pad); border-radius:var(--radius);
+          box-shadow: 0 6px 18px rgba(12,12,20,0.06); margin-top:18px;}
+    .grid{display:grid; gap:14px;}
+    .two-col{grid-template-columns: 1fr 360px;}
+    ul{margin:0 0 1rem 1.2rem}
+    h2{margin:10px 0 6px}
+    .objectives ol{padding-left:1.2rem}
+    .float-check{
+      position:fixed; right:20px; top:20px; z-index:9999;
+      display:flex; align-items:center; gap:10px;
+      background: rgba(255,255,255,0.9); padding:8px 10px;
+      border-radius:999px; box-shadow:0 6px 18px rgba(0,0,0,0.08);
+      backdrop-filter: blur(4px);
+    }
+    .circle{
+      width:22px; height:22px; border-radius:50%; border:2px solid var(--accent);
+      display:inline-grid; place-items:center; cursor:pointer;
+      background:transparent;
+    }
+    .circle.checked{ background:var(--accent); color:#fff; }
+    .small{font-size:0.9rem; color:var(--muted)}
+    /* exam */
+    form.exam { display:flex; flex-direction:column; gap:12px; }
+    .form-row{display:flex; gap:10px; align-items:flex-start; flex-wrap:wrap}
+    .form-row textarea{flex:1; min-height:70px; padding:10px; border-radius:8px; border:1px solid #e5e7eb}
+    input[type="text"], textarea {font:inherit}
+    .btn{display:inline-block; padding:10px 14px; border-radius:10px; border:0; cursor:pointer;}
+    .btn-primary{background:var(--accent); color:white}
+    .btn-ghost{background:transparent; border:1px solid #ddd}
+    footer{margin-top:28px; color:var(--muted); font-size:0.9rem}
+    @media (max-width:900px){
+      .two-col{grid-template-columns: 1fr}
+      .float-check{right:12px; top:12px}
+    }
+  </style>
+</head>
+<body>
+  <!-- Progress toggle floating in upper-right -->
+  <div class="float-check" role="region" aria-label="Course progress">
+    <div id="progressToggle" class="circle" tabindex="0" title="Click to mark course read/unread" aria-pressed="false">✓</div>
+    <div class="small">Mark course read</div>
+  </div>
+
+  <main class="wrap">
+    <header>
+      <div class="brand">
+        <h1>AST-101 — Introduction to Apostolic Theology</h1>
+        <div class="meta">Bronze — Associate of Theology (A.Th.) · 3 Credit Hours · Course Code: AST-101</div>
+      </div>
+    </header>
+
+    <section class="card grid two-col" aria-labelledby="desc">
+      <div>
+        <h2 id="desc">A. Course Description</h2>
+        <p>This course introduces Apostolic (Oneness Pentecostal) theology as rooted in Scripture and expressed in historic Apostolic movements. Emphasis is placed on Oneness of God, Acts 2:38 salvation, holiness of life, and authority of the Apostolic Scriptures.</p>
+
+        <h2>B. Course Objectives</h2>
+        <div class="objectives">
+          <ol>
+            <li>Define “Apostolic theology” and “Apostolic doctrine” biblically.</li>
+            <li>Explain the meaning of “the apostles’ doctrine” (Acts 2:42).</li>
+            <li>Articulate the Oneness of God with key Scriptures.</li>
+            <li>Explain Apostolic plan of salvation (repentance, Jesus’ Name baptism, Spirit baptism).</li>
+            <li>Outline basic doctrine of holiness in lifestyle and conduct.</li>
+            <li>Differentiate Apostolic theology from Trinitarianism and generic evangelical beliefs.</li>
+            <li>Demonstrate understanding of early church identity and continuity with modern Apostolic believers.</li>
+            <li>Complete course acknowledgement (use the progress toggle upper-right).</li>
+          </ol>
+          <p class="small">Please click the checked circle in the upper-right once you have read through and understood objectives 1–8. This will record your progress locally in this browser.</p>
+        </div>
+
+        <h2>C. Detailed Course Outline</h2>
+
+        <h3>Unit 1 – What Does “Apostolic” Mean?</h3>
+        <ul>
+          <li><strong>Biblical Use of “Apostle”</strong>: Definition of apostolos (one sent). The Twelve Apostles and their unique role.</li>
+          <li><strong>The Apostles’ Doctrine – Acts 2:42</strong>: What early believers continued in; doctrine as teaching.</li>
+          <li><strong>“Apostolic” as Theological Identity</strong>: Being Apostolic vs. merely Pentecostal; difference from charismatic belief.</li>
+        </ul>
+
+        <h3>Unit 2 – Authority of Scripture and the Apostolic Witness</h3>
+        <ul>
+          <li>Inspiration and Inerrancy of Scripture (2 Tim. 3:16–17).</li>
+          <li>Apostolic Witness of Christ — eyewitnesses and 1 Cor 15.</li>
+          <li>Canon and Apostolic Writings — why New Testament books are Apostolic; dangers of extra-biblical distortions.</li>
+        </ul>
+
+        <h3>Unit 3 – The Oneness of God (Apostolic Christology)</h3>
+        <ul>
+          <li>Biblical Monotheism (Deut 6:4; Isaiah).</li>
+          <li>God manifest in the flesh (1 Tim 3:16; John 1:1,14; Colossians 2:9).</li>
+          <li>Refutation of Trinity as three persons; Sonship as incarnation.</li>
+          <li>Jesus as the Name of God in the New Covenant — harmony of Matt 28:19 & Acts 2:38.</li>
+        </ul>
+
+        <h3>Unit 4 – Apostolic Plan of Salvation (Acts 2:38 Pattern)</h3>
+        <ul>
+          <li>Repentance (metanoia).</li>
+          <li>Water baptism in the name of Jesus (immersion) — Acts examples.</li>
+          <li>Spirit baptism with evidence of tongues (Acts 2,10,19).</li>
+          <li>Obedient response to the Gospel — Romans 6 imagery.</li>
+        </ul>
+
+        <h3>Unit 5 – Apostolic Holiness and Lifestyle</h3>
+        <ul>
+          <li>Holiness as God’s nature (1 Peter 1:15–16).</li>
+          <li>Inward holiness: heart, attitudes, Fruit of the Spirit.</li>
+          <li>Outward holiness: modesty, sobriety, conduct.</li>
+          <li>Holiness as identity, not mere legalism.</li>
+        </ul>
+
+        <h3>Unit 6 – Apostolic Church, Mission, and Continuity</h3>
+        <ul>
+          <li>Marks of the Apostolic Church (Acts 2:42): doctrine, fellowship, breaking of bread, prayers.</li>
+          <li>Historical continuity of Jesus-name witnesses; restoration leading to modern Pentecost.</li>
+          <li>Modern Apostolic movements and missionary vision.</li>
+          <li>Living Apostolic today: calling, ministry prep, guarding the Apostolic deposit (2 Tim. 1:13–14).</li>
+        </ul>
+
+      </div>
+
+      <!-- right column -->
+      <aside>
+        <div class="card" aria-labelledby="examTitle">
+          <h2 id="examTitle">Exam & actions</h2>
+          <p class="small">Instructions: answer the brief questions below and either download the answers or email them to the school.</p>
+
+          <form id="examForm" class="exam" onsubmit="return false;">
+            <label><strong>Student Name</strong><br>
+              <input id="studentName" type="text" placeholder="Full name" aria-label="Student name" required>
+            </label>
+
+            <label><strong>1. Define “Apostolic theology” (short answer)</strong>
+              <textarea id="q1" placeholder="Your answer" required></textarea>
+            </label>
+
+            <label><strong>2. List the Acts 2:38 elements</strong>
+              <textarea id="q2" placeholder="Repentance, Baptism, Spirit..." required></textarea>
+            </label>
+
+            <label><strong>3. Explain Oneness in one paragraph</strong>
+              <textarea id="q3" placeholder="Your answer" required></textarea>
+            </label>
+
+            <div class="form-row">
+              <button type="button" class="btn btn-primary" id="emailBtn">Send Exam by Email</button>
+              <button type="button" class="btn btn-ghost" id="downloadBtn">Download Answers (TXT)</button>
+              <button type="button" class="btn btn-ghost" id="printBtn">Print</button>
+            </div>
+
+            <p class="small">Email target: <em>Apostolic School Of Theology</em> — replace the email address in the page script before use.</p>
+          </form>
+        </div>
+
+        <div class="card" style="margin-top:12px;">
+          <h3>Course actions</h3>
+          <ul>
+            <li>Review units and objectives.</li>
+            <li>Mark progress with the circle in the upper-right.</li>
+            <li>Complete the exam and send to the school.</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      <div class="card">
+        <strong>Notes:</strong>
+        <ul>
+          <li>Replace the placeholder target email inside the script section with the actual Apostolic School of Theology email before enabling email sending.</li>
+          <li>Progress is stored in this browser only (localStorage). For central tracking add server-side code or LMS integration.</li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // --------- Progress toggle using localStorage ----------
+    const toggle = document.getElementById('progressToggle');
+    const PROG_KEY = 'AST101_course_read_v1';
+
+    function renderToggle(){
+      const val = localStorage.getItem(PROG_KEY) === 'true';
+      toggle.classList.toggle('checked', val);
+      toggle.setAttribute('aria-pressed', String(val));
+      toggle.title = val ? 'Marked read (click to unmark)' : 'Click to mark course read';
+    }
+    toggle.addEventListener('click', ()=>{
+      const newVal = !(localStorage.getItem(PROG_KEY) === 'true');
+      localStorage.setItem(PROG_KEY, String(newVal));
+      renderToggle();
+    });
+    // keyboard accessible
+    toggle.addEventListener('keydown', (e)=>{
+      if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle.click(); }
+    });
+    renderToggle();
+
+    // --------- Exam actions ----------
+    const emailBtn = document.getElementById('emailBtn');
+    const downloadBtn = document.getElementById('downloadBtn');
+    const printBtn = document.getElementById('printBtn');
+
+    function collectAnswers(){
+      const name = document.getElementById('studentName').value.trim();
+      const q1 = document.getElementById('q1').value.trim();
+      const q2 = document.getElementById('q2').value.trim();
+      const q3 = document.getElementById('q3').value.trim();
+      return { name, q1, q2, q3 };
+    }
+
+    // PLACEHOLDER — replace with actual email address:
+    const TARGET_EMAIL = 'admissions@example.org';
+
+    emailBtn.addEventListener('click', ()=>{
+      const ans = collectAnswers();
+      if(!ans.name || !ans.q1 || !ans.q2 || !ans.q3){
+        alert('Please complete all fields before sending.');
+        return;
+      }
+
+      // Build a simple mailto body. Note: mailto URLs may be limited in length.
+      const subject = encodeURIComponent('AST-101 Exam Submission — ' + ans.name);
+      let body = '';
+      body += 'Student Name: ' + ans.name + '\\n\\n';
+      body += '1) Define Apostolic theology:\\n' + ans.q1 + '\\n\\n';
+      body += '2) Acts 2:38 elements:\\n' + ans.q2 + '\\n\\n';
+      body += '3) Oneness explanation:\\n' + ans.q3 + '\\n\\n';
+      body += 'Submitted from AST-101 course page.';
+
+      const mailto = `mailto:${TARGET_EMAIL}?subject=${subject}&body=${encodeURIComponent(body)}`;
+      // open mailto:
+      window.location.href = mailto;
+    });
+
+    downloadBtn.addEventListener('click', ()=>{
+      const ans = collectAnswers();
+      if(!ans.name || !ans.q1 || !ans.q2 || !ans.q3){
+        alert('Please complete all fields before downloading.');
+        return;
+      }
+      const txt = [
+        `AST-101 Exam Submission — ${ans.name}`,
+        '',
+        '1) Define Apostolic theology:',
+        ans.q1,
+        '',
+        '2) Acts 2:38 elements:',
+        ans.q2,
+        '',
+        '3) Oneness explanation:',
+        ans.q3,
+        '',
+        '---',
+        'This file was generated from the AST-101 course page.'
+      ].join('\\n');
+
+      const blob = new Blob([txt], {type:'text/plain'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = `AST101_Exam_${ans.name.replace(/\\s+/g,'_')||'student'}.txt`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+
+    printBtn.addEventListener('click', ()=>{
+      window.print();
+    });
+
+    // Optional: clear progress by double-clicking the circle
+    toggle.addEventListener('dblclick', ()=>{
+      if(confirm('Clear saved progress for this course?')){
+        localStorage.removeItem(PROG_KEY);
+        renderToggle();
+      }
+    });
+  </script>
+</body>
+</html>
