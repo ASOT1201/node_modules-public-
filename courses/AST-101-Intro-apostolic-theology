@@ -1,0 +1,3 @@
+git add courses/AST-101-intro-apostolic-theology/index.html
+git commit -m "Add AST-101 Introduction to Apostolic Theology course page"
+git push
